@@ -1,0 +1,17 @@
+{
+  "name": "login-sqlite-estacion",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "node initdb.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.0.0",
+    "connect-redis": "^7.0.0",
+    "express": "^4.19.0",
+    "express-session": "^1.17.3",
+    "ioredis": "^5.3.2"
+  }
+}
